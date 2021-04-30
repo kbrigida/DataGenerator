@@ -37,6 +37,7 @@ public class PersonalDataGenerator {
             String result = String.format("%s,%s,%s,%s,%s,%s",email,firstName,lastName,city,country,phone);
             writeToFileData("result.csv", result);
         }
+        System.out.println("File generated. You can found results in result.csv that was created in the same directory as this JAR file located");
     }
 
     public static void createFile(String fileName){
